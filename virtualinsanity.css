@@ -1,0 +1,97 @@
+@font-face
+{
+    font-family: 'virtualinsanity';
+    src: url('font/virtualinsanity.woff2') format('woff2'), url('font/virtualinsanity.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.discord        { fill: #5865F2; }
+.discord:hover  { fill: #ffffff; }
+.steam          { fill: #ffffff; }
+.steam:hover    { fill: #ffffff; }
+
+.m-0 { margin: 0; }
+.m-1 { margin: 0rem 0rem 0rem 1rem;}
+.p-1 {padding: 1rem;}
+.align-left {text-align: left; }
+.align-right { text-align: right; }
+
+*
+{
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'virtualinsanity';
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid #ffffff;
+}
+.header *:last-child
+{
+    margin-left: auto;
+}
+
+div.nav, div.social
+{
+    display: inline-flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+div.nav a
+{
+    padding: 1rem;
+    text-decoration: none;
+}
+
+div.nav a:hover
+{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.body
+{
+    background-color: #000;
+    color: #fff;
+}
+
+.vi-logo
+{
+    width: 4rem;
+    height: 4rem;
+}
+
+.virtualinsanity
+{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.social a
+{
+    margin: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.debug { border: 1px dotted green; }
+
+.disabled
+{
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
