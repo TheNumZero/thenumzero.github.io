@@ -1,0 +1,89 @@
+@font-face
+{
+    font-family: 'virtualinsanity';
+    src: url('virtualinsanity.woff2') format('woff2'), url('virtualinsanity.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.debug { border: 1px dotted green; }
+
+*
+{
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'virtualinsanity';
+    margin: 0;
+    padding: 0;
+}
+* *::before *::after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.nav
+{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+}
+.nav-item
+{
+    display: flex;
+    padding: 1rem;
+    width: auto;
+    align-items: center;
+}
+
+.nav-item:hover
+{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.virtualinsanity
+{
+    display: flex;
+    align-items: center;
+    padding: 0 2rem 0 1rem;
+
+}
+.virtualinsanity:hover .vi-logo
+{
+    background-color: #FFFFFF;
+    fill: #000000;
+}
+
+.vi-logo
+{
+    fill: #FFFFFF;
+    margin: 0 0.5rem 0 0;
+    width: 3rem;
+}
+
+.social
+{
+    display: flex;
+    margin-left: auto;
+    align-items: center;    
+}
+.social-icon
+{
+    margin: 0 1rem 0 0rem;
+    width: 2rem;
+    height: 2rem;
+}
+.discord        { fill: #5865F2; }
+.discord:hover  { fill: #ffffff; }
+.steam          { fill: #ffffff; }
+.steam:hover    { fill: #ffffff; }
